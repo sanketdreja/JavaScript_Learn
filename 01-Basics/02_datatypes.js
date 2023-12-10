@@ -3,7 +3,7 @@
 
 let name = "abc";
 let age = 18;
-let isLoggedIn = true;
+// let isLoggedIn = true;
 
 /*
     number =>  2 to the power of 53 minus 1 2^53-1 values
@@ -25,7 +25,7 @@ let isLoggedIn = true;
 
 // Converstion operation
 
-let score = "33";
+// let score = "33";
 
 // console.log(typeof score);
 // console.log(typeof (score));
@@ -173,4 +173,9 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// stack(Primitive) and heap(non-Primitive)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
