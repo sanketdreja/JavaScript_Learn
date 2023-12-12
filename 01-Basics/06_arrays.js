@@ -234,4 +234,3 @@ pop(): Removes and returns the last element.
 shift(): Removes and returns the first element.
 unshift(element1, ..., elementN): Adds elements to the beginning of the array.
 */
-// This code covers various aspects of array manipulation, including creation, modification, joining, splitting, concatenation, flattening nested arrays, and using utility methods. Understanding these operations is essential for working effectively with arrays in JavaScript
