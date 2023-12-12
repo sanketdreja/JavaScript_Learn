@@ -179,4 +179,59 @@ let score2 = 200;
 let score3 = 300;
 
 console.log(Array.of(score1, score2, score3)); // Creating an array from individual values
+
+
+/*
+
+Here is a list of some commonly used methods of the Array object in JavaScript:
+
+Manipulation Methods:
+
+concat(...arrays): Combines arrays and returns a new array.
+join(separator): Joins all elements into a string using the specified separator.
+pop(): Removes and returns the last element.
+push(element1, ..., elementN): Adds elements to the end of the array.
+shift(): Removes and returns the first element.
+unshift(element1, ..., elementN): Adds elements to the beginning of the array.
+reverse(): Reverses the order of elements.
+slice(start, end): Extracts a section of the array.
+Iteration Methods:
+
+forEach(callback(currentValue, index, array), thisArg): Calls a function for each element.
+map(callback(currentValue, index, array), thisArg): Creates a new array by applying a function to each element.
+filter(callback(element, index, array), thisArg): Creates a new array with elements that pass a test.
+reduce(callback(accumulator, currentValue, index, array), initialValue): Applies a function to reduce the array to a single value.
+some(callback(element, index, array), thisArg): Tests whether at least one element passes the test.
+every(callback(element, index, array), thisArg): Tests whether all elements pass the test.
+Searching and Sorting Methods:
+
+indexOf(searchElement, fromIndex): Returns the first index at which a given element is found.
+lastIndexOf(searchElement, fromIndex): Returns the last index at which a given element is found.
+includes(element, fromIndex): Determines whether an array includes a certain element.
+sort(compareFunction): Sorts the elements of an array.
+find(callback(element, index, array), thisArg): Returns the first element that passes a test.
+findIndex(callback(element, index, array), thisArg): Returns the index of the first element that passes a test.
+Conversion Methods:
+
+toString(): Returns a string representing the array.
+toLocaleString(locales, options): Returns a localized string representing the array.
+join(separator): Joins all elements into a string using the specified separator.
+Mutating Methods:
+
+splice(start, deleteCount, item1, item2, ...): Changes the contents of an array by removing or replacing existing elements.
+copyWithin(target, start, end): Copies a sequence of array elements to another position in the array.
+fill(value, start, end): Fills all the elements of an array with a static value.
+Accessor Methods:
+
+concat(...arrays): Combines arrays and returns a new array.
+slice(start, end): Extracts a section of the array.
+includes(element, fromIndex): Determines whether an array includes a certain element.
+Length-related Methods:
+
+length: Property representing the number of elements in an array.
+push(element1, ..., elementN): Adds elements to the end of the array.
+pop(): Removes and returns the last element.
+shift(): Removes and returns the first element.
+unshift(element1, ..., elementN): Adds elements to the beginning of the array.
+*/
 // This code covers various aspects of array manipulation, including creation, modification, joining, splitting, concatenation, flattening nested arrays, and using utility methods. Understanding these operations is essential for working effectively with arrays in JavaScript
