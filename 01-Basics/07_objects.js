@@ -76,7 +76,28 @@ for (let key in person) {
 
 
 // Object.keys, Object.values, Object.entries:
+// Object.keys(obj):
 
+// Returns an array of a given object's own enumerable property names.
+// const obj2 = { a: 1, b: 2, c: 3 };
+// const keys2 = Object.keys(obj2);
+// Output: ['a', 'b', 'c']
+
+
+// Object.values(obj):
+
+// Returns an array of a given object's own enumerable property values.
+// const obj3 = { a: 1, b: 2, c: 3 };
+// const values3 = Object.values(obj3);
+// Output: [1, 2, 3]
+
+
+// Object.entries(obj):
+
+// Returns an array of a given object's own enumerable property [key, value] pairs.
+// const obj4 = { a: 1, b: 2, c: 3 };
+// const entries4 = Object.entries(obj4);
+// Output: [['a', 1], ['b', 2], ['c', 3]]
 const keys = Object.keys(person);
 const values = Object.values(person);
 const entries = Object.entries(person);
