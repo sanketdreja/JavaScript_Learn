@@ -63,3 +63,49 @@ console.log(unionSet); // Set { 1, 2, 3, 4, 5 }
 // Remember that sets only store unique values, so the resulting unionSet won't contain duplicate values.
 
 // This is a basic overview of working with Sets in JavaScript. Sets are a versatile and efficient way to handle collections of unique values in your code.
+
+//========================================================================
+
+// In JavaScript, the Set object has several methods for adding, removing, and manipulating elements. Here is a list of the commonly used methods for a Set:
+
+// add(value): Adds a new element with the specified value to the Set. Returns the Set object.
+
+let mySet = new Set();
+mySet.add(1);
+// delete(value): Removes the element with the specified value from the Set. Returns true if an element with the specified value was found and removed; otherwise, false.
+
+mySet.delete(1);
+// has(value): Returns a boolean indicating whether the Set contains a value or not.
+
+console.log(mySet.has(1)); // false
+// clear(): Removes all elements from the Set.
+
+mySet.clear();
+// size: Returns the number of elements in the Set.
+
+console.log(mySet.size);
+// forEach(callbackFn, thisArg): Calls a callback function once for each element in the Set, in insertion order.
+
+mySet.forEach((value, key, set) => {
+    console.log(value);
+});
+// keys(): Returns an iterator of the keys in the Set. (This is the same as the values() method.)
+
+let keysIterator = mySet.keys();
+for (let key of keysIterator) {
+    console.log(key);
+}
+// values(): Returns an iterator of the values in the Set.
+
+let valuesIterator = mySet.values();
+for (let value of valuesIterator) {
+    console.log(value);
+}
+// entries(): Returns an iterator of entries (key-value pairs) in the Set. Each entry is an array with two elements: the key and the value.
+
+let entriesIterator = mySet.entries();
+for (let entry of entriesIterator) {
+    console.log(entry[0], entry[1]);
+}
+// These methods provide a variety of ways to interact with and manipulate Set objects in JavaScript.
+
