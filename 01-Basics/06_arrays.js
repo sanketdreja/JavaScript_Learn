@@ -1,4 +1,4 @@
-// Certainly! Arrays in JavaScript are a type of object used for storing and manipulating a collection of values. They are versatile and widely used in JavaScript programming. Here are the key aspects of arrays in JavaScript:
+//  Arrays in JavaScript are a type of object used for storing and manipulating a collection of values. They are versatile and widely used in JavaScript programming. Here are the key aspects of arrays in JavaScript:
 
 // 1. Creating Arrays:
 // Arrays can be created using array literals or the Array constructor.
